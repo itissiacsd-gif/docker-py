@@ -4,7 +4,7 @@ agent any
 
 environment {
 
-DOCKER_IMAGE = 'python-hi:latest' // Docker image name
+DOCKER_IMAGE = 'python-hi' // Docker image name
 
 }
 
@@ -40,5 +40,4 @@ error "Dockerfile not found in the workspace. Please create one for your Python 
 
 }
 
-}
 }
